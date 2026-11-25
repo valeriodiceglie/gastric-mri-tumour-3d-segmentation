@@ -1,0 +1,26 @@
+# data and generated results (not published)
+data/
+results/
+
+# report sources (only the compiled report.pdf is published)
+report/
+
+# manifest files not published: clinical data, superseded split, case lists rewritten by extract_subset.py
+manifest/manifest_patients.csv
+manifest/split.csv
+manifest/*_cases.csv
+
+# internal working notes
+CLAUDE.md
+docs/roadmap.md
+
+# MATLAB and Python
+*.asv
+*.mex*
+__pycache__/
+*.pyc
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
