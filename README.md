@@ -27,12 +27,18 @@ simulated from the expert mask.
 
 The full report is [`report.pdf`](report.pdf).
 
-![Page 1](assets/report-1.png)
-![Page 2](assets/report-2.png)
-![Page 3](assets/report-3.png)
-![Page 4](assets/report-4.png)
-![Page 5](assets/report-5.png)
-![Page 6](assets/report-6.png)
+<table>
+  <tr>
+    <td><a href="assets/report-1.png"><img src="assets/report-1.png" alt="Report, page 1" width="260"></a></td>
+    <td><a href="assets/report-2.png"><img src="assets/report-2.png" alt="Report, page 2" width="260"></a></td>
+    <td><a href="assets/report-3.png"><img src="assets/report-3.png" alt="Report, page 3" width="260"></a></td>
+  </tr>
+  <tr>
+    <td><a href="assets/report-4.png"><img src="assets/report-4.png" alt="Report, page 4" width="260"></a></td>
+    <td><a href="assets/report-5.png"><img src="assets/report-5.png" alt="Report, page 5" width="260"></a></td>
+    <td><a href="assets/report-6.png"><img src="assets/report-6.png" alt="Report, page 6" width="260"></a></td>
+  </tr>
+</table>
 
 ## Requirements
 
