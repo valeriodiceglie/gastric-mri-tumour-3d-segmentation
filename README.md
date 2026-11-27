@@ -90,6 +90,14 @@ M = segmentCase(int16(I), S, sp);   % 3D tumour mask; seeds and start slice are 
 diceCoef(M, S)                      % volumetric Dice with the expert mask
 ```
 
+`demo.m` shows the method on one development patient, one section at a time (Ctrl+Enter); right-click it
+and choose "Open as Live Script" to run it as a notebook. It covers:
+
+1. the method step by step: seed placement, normalisation, adaptive threshold (with its histogram),
+   region growing, opening, one propagation step and the whole volume in 3D;
+2. seeds placed by clicking on the slice, as an operator would, instead of taking them from the expert mask;
+3. two sliders for the threshold parameter k and the opening radius, to see their effect on the start slice.
+
 The parameters of the method are in `src/methodConfig.m`. The experiments called by `main`, in order:
 
 | Experiment | Question |
@@ -109,6 +117,7 @@ The parameters of the method are in `src/methodConfig.m`. The experiments called
 
 ```
 main.m, checkPipeline.m   full run and quick check
+demo.m                    interactive demo of the method on one patient
 src/                      the method (segmentCase, segmentSlice, propagateVolume, methodConfig, ...)
                           and the shared tools (metrics, bootstrap, Wilcoxon test, I/O, figures)
 experiments/              one experiment per file, run by main.m
